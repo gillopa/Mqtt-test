@@ -24,6 +24,8 @@ await PublishSomeThink("i/command/manager", json, options);
 
 await Task.Delay(60 * 1000);
 
+// Бизнес логика 
+// Получение данных от контроллера
 async Task SubscribeToStatusZigbee(IMqttClientOptions mqttClientOptionsBuilder)
 {
     MqttFactory mqttClientFactory = new();
@@ -31,19 +33,18 @@ async Task SubscribeToStatusZigbee(IMqttClientOptions mqttClientOptionsBuilder)
     using var mqttClient = mqttClientFactory.CreateMqttClient();
     await mqttClient.ConnectAsync(options);
 
-    // Бизнес логика
     await mqttClient.SubscribeAsync("i/status/zigbee");
 
     mqttClient.ApplicationMessageReceivedHandler = new Handler();
 }
 
+// Отправка команд на устройство
 async Task PublishSomeThink(string Topic, JsonObject message, IMqttClientOptions mqttClientOptionsBuilder)
 {
     MqttFactory mqttClientFactory = new();
     using var mqttClient = mqttClientFactory.CreateMqttClient();
     await mqttClient.ConnectAsync(options);
 
-    // Console.WriteLine(message.ToString());
     await mqttClient.PublishAsync(Topic, message.ToString());
 }
 
