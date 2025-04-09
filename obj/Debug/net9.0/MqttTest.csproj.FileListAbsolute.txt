@@ -1,0 +1,17 @@
+D:\desctop\MqttTest\bin\Debug\net9.0\MqttTest.exe
+D:\desctop\MqttTest\bin\Debug\net9.0\MqttTest.deps.json
+D:\desctop\MqttTest\bin\Debug\net9.0\MqttTest.runtimeconfig.json
+D:\desctop\MqttTest\bin\Debug\net9.0\MqttTest.dll
+D:\desctop\MqttTest\bin\Debug\net9.0\MqttTest.pdb
+D:\desctop\MqttTest\bin\Debug\net9.0\MQTTnet.dll
+D:\desctop\MqttTest\obj\Debug\net9.0\MqttTest.csproj.AssemblyReference.cache
+D:\desctop\MqttTest\obj\Debug\net9.0\MqttTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\desctop\MqttTest\obj\Debug\net9.0\MqttTest.AssemblyInfoInputs.cache
+D:\desctop\MqttTest\obj\Debug\net9.0\MqttTest.AssemblyInfo.cs
+D:\desctop\MqttTest\obj\Debug\net9.0\MqttTest.csproj.CoreCompileInputs.cache
+D:\desctop\MqttTest\obj\Debug\net9.0\MqttTest.csproj.Up2Date
+D:\desctop\MqttTest\obj\Debug\net9.0\MqttTest.dll
+D:\desctop\MqttTest\obj\Debug\net9.0\refint\MqttTest.dll
+D:\desctop\MqttTest\obj\Debug\net9.0\MqttTest.pdb
+D:\desctop\MqttTest\obj\Debug\net9.0\MqttTest.genruntimeconfig.cache
+D:\desctop\MqttTest\obj\Debug\net9.0\ref\MqttTest.dll
